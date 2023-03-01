@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Emrishopit</title>
+    </head>
+    <body>
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+        </a>
+        
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">B&E Derma</a>
+                
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                       
+                        <li class="nav__item"><a href="#decoration" class="nav__link">Produkte</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Kontakt</a></li>
+
+                        <li><i class='bx bx-toggle-left change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__img">
+                        <img src="assets/Images/undraw_medicine_b-1-ol (2).svg" alt="">
+                    </div>
+
+                    <div class="home__data">
+                        <h1 class="home__title">Shendeti nga natyra, pa pasoja! </h1>
+                        <p class="home__description">Produktet me te reja ne tregun shqipetar me baze bimore dhe pa efekte anesore </p>
+
+                    </div>   
+                </div>
+            </section>
+
+            <!--========== SHARE ==========-->
+          
+
+            <!--========== DECORATION ==========-->
+            <section class="decoration section bd-container" id="decoration">
+                <h2 class="section-title">Në qendër të vëmendjes <br> Produktet më të preferuara</h2>
+                <div class="decoration__container bd-grid">
+                    <div class="decoration__data">
+                        <img src="assets/Images/fungostop.png" alt="" class="decoration__img_fungo">
+                        <h3 class="decoration__title">Fungostop</h3>
+                        <a href="http://tl-track.com/tracker/uNQG" class="button button-link">Porosit</a>
+                    </div>
+                    <div class="decoration__data">
+                        <img src="assets/Images/menomin-forte.jpg" alt="" class="decoration__img_menomin">
+                        <h3 class="decoration__title">Menomin Forte</h3>
+                        <a href="http://tl-track.com/tracker/ucaR" class="button button-link">Porosit</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/Images/slimfit.png" alt="" class="decoration__img_slim">
+                        <h3 class="decoration__title">Slimfit</h3>
+                        <a href="http://tl-track.com/tracker/uNQn" class="button button-link">Porosit</a>
+                    </div>
+
+                    <div class="decoration__data">
+                        <img src="assets/Images/varydex.png" alt="" class="decoration__img_varydex">
+                        <h3 class="decoration__title">Varydex</h3>
+                        <a href="http://tl-track.com/tracker/uwNj" class="button button-link">Porosit</a>
+                    </div>
+                </div>
+            </section>
+
+            <!--========== ACCESSORIES ==========-->
+            
+
+            <!--========== SEND GIFT ==========-->
+            
+                <section class="download" id="contact">
+                    <div class="heading">
+                        <h1>NA KONTAKTONI</h1>
+                        <p class="contactp">Ndjehuni te lire te na kontaktoni ne platformat e meposhtme:</p>
+                    </div>
+            
+                    <div class="box-container">
+                        <div class="box">
+                            <img src="assets/Images/WhatsApp-Logo.wine.svg" width="60%" alt="logo-chrome">
+            
+                            <h3 class="">WhatsApp</h3>
+                            <br>
+            
+                            <a href="https://wa.link/uiecgk" class="button">Contact</a>
+                        </div>
+            
+                        <div class="box">
+                            <img src="assets/Images/Gmail-Logo.wine.svg" width="20%" alt="logo-firefox">
+                            <br>
+            
+                            <h3>Email</h3>
+                            <br>
+                            <form onsubmit="sendEmail();redirect();return false;">
+                                <input name="name" type="text" id="name" class="feedback-input" placeholder="Name" required />
+                                <input name="email" id="email" type="text" class="feedback-input" placeholder="Email" required />
+                                <textarea name="text" class="feedback-input" id="message" placeholder="Message" required></textarea>
+                                 <input type="submit" id="submit" class="btnsubmit" value="Dergo" />
+                            </form>
+                            <script>
+                              
+            
+                                function redirect() {
+            
+            
+                                    setTimeout(() => {
+                                        window.location.href = "/thanku.html";
+                                    }
+                                        , 2000);
+                                }
+            
+            
+            
+            
+            
+                            </script>
+            
+            
+            
+            
+                            <!--                 
+                            <a href="#" class="all-btn">contact</a> -->
+                        </div>
+            
+            
+                    </div>
+                </section>
+            
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section">
+            <div class="footer__container bd-container bd-grid">
+                <div class="footer__content">
+                    <h3 class="footer__title">
+                        <a href="#" class="footer__logo">B&E Derma</a>
+                    </h3>
+                    <p class="footer__description">Zgjidhni Natyren <br> Zgjidhni Shendetin</p>
+                </div>
+
+               
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Social</h3>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-whatsapp'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+                <div class="footer__content">
+                    <h3>contact info</h3>
+                <a href="#"><i class="fas fa-phone"></i>+123-456-789</a>
+                <a href="#"><i class="fas fa-envelope"></i>email@bet.com</a>
+                <a href="#"><i class="fas fa-map-marker-alt"></i>Tirana, Albania-1010</a>
+                </div>
+                
+            </div>
+
+            <p class="footer__copy">&#169; 2023 B&E Derma. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+
+        <script src="js/main.js"></script>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail() {
+                let message = document.getElementById("message").value;
+                let name = document.getElementById("name").value;
+                let emailofuser = document.getElementById("email").value;
+                let sent = false;
+                Email.send({
+                    Host: "smtp.elasticemail.com",
+                    Username: "perdoruesperdoruesi@gmail.com",
+                    Password: "938ADFBBED177EB0ACE8613CA7D6710AFA1C",
+                    To: 'ergiboja@gmail.com',
+                    From: "perdoruesperdoruesi@gmail.com",
+    
+                    Subject: "New email from client",
+                    Body: `${name}<br> ${emailofuser}<br>${message}`
+    
+                }).then(
+                    message => {
+                        console.log(message);
+    
+                    }
+    
+    
+                );
+    
+    
+    
+    
+    
+    
+    
+    
+            }
+        </script>
+    </body>
+</html>
